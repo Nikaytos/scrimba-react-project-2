@@ -15,7 +15,6 @@ body {
 header {
     width: 100%;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 7px;
@@ -31,5 +30,58 @@ header {
         font-size: 0.9rem;
         color: #fff;
         font-weight: 500;
+    }
+}
+
+main {
+    padding: 45px 40px;
+
+    .location {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        font-size: 0.7rem;
+        color: #2b283a;
+    }
+
+    .location-marker {
+        width: 7px;
+    }
+
+    .country-name {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-left: 4px;
+    }
+
+    .url-to-maps {
+        margin-left: 12px;
+        color: #2b283a;
+
+        &:hover,
+        &:visited {
+            color: #918e9b;
+        }
+    }
+
+    .location-image {
+        width: 125px;
+        height: 168px;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+
+    .location-name {
+        font-size: 1.5rem;
+        margin: 4px 0 0;
+    }
+
+    .location-date {
+        margin: 18px 0 0;
+        font-weight: 700;
+    }
+
+    .location-description {
+        margin: 9px 0 0;
     }
 }
