@@ -7,12 +7,7 @@ export default function App() {
         <>
             <Entry
                 key={e.id}
-                img={e.img}
-                title={e.title}
-                country={e.country}
-                googleMapsLink={e.googleMapsLink}
-                dates={e.dates}
-                text={e.text}
+                entry={e}
             />
             {index < data.length - 1 && <hr className="entry-divider" />}
         </>
