@@ -57,6 +57,7 @@ main {
     .url-to-maps {
         margin-left: 12px;
         color: #2b283a;
+        user-select: none;
 
         &:hover,
         &:visited {
